@@ -1,0 +1,143 @@
+00007ff7`aefe1140 48895c2408      mov     qword ptr [rsp+8],rbx
+00007ff7`aefe1145 57              push    rdi
+00007ff7`aefe1146 4883ec20        sub     rsp,20h
+00007ff7`aefe114a 33c9            xor     ecx,ecx
+00007ff7`aefe114c ff15e65e0000    call    qword ptr [ClimbToTop!_imp_GetModuleHandleW (00007ff7`aefe7038)]
+00007ff7`aefe1152 4c8d0507630000  lea     r8,[ClimbToTop!`string' (00007ff7`aefe7460)]
+00007ff7`aefe1159 ba65000000      mov     edx,65h
+00007ff7`aefe115e 488bc8          mov     rcx,rax
+00007ff7`aefe1161 488bf8          mov     rdi,rax
+00007ff7`aefe1164 ff15c65e0000    call    qword ptr [ClimbToTop!_imp_FindResourceW (00007ff7`aefe7030)]
+00007ff7`aefe116a 488bd8          mov     rbx,rax
+00007ff7`aefe116d 4885c0          test    rax,rax
+00007ff7`aefe1170 752e            jne     ClimbToTop!main+0x60 (00007ff7`aefe11a0)
+00007ff7`aefe1172 488d0df7620000  lea     rcx,[ClimbToTop!`string' (00007ff7`aefe7470)]
+00007ff7`aefe1179 ff15c1600000    call    qword ptr [ClimbToTop!_imp_puts (00007ff7`aefe7240)]
+00007ff7`aefe117f ff158b5e0000    call    qword ptr [ClimbToTop!_imp_GetLastError (00007ff7`aefe7010)]
+00007ff7`aefe1185 8bd0            mov     edx,eax
+00007ff7`aefe1187 488d0dfa620000  lea     rcx,[ClimbToTop!`string' (00007ff7`aefe7488)]
+00007ff7`aefe118e e88dfeffff      call    ClimbToTop!printf (00007ff7`aefe1020)
+00007ff7`aefe1193 33c0            xor     eax,eax
+00007ff7`aefe1195 488b5c2430      mov     rbx,qword ptr [rsp+30h]
+00007ff7`aefe119a 4883c420        add     rsp,20h
+00007ff7`aefe119e 5f              pop     rdi
+00007ff7`aefe119f c3              ret
+00007ff7`aefe11a0 488bd3          mov     rdx,rbx
+00007ff7`aefe11a3 488bcf          mov     rcx,rdi
+00007ff7`aefe11a6 ff157c5e0000    call    qword ptr [ClimbToTop!_imp_LoadResource (00007ff7`aefe7028)]
+00007ff7`aefe11ac 488bf8          mov     rdi,rax
+00007ff7`aefe11af 4885c0          test    rax,rax
+00007ff7`aefe11b2 7509            jne     ClimbToTop!main+0x7d (00007ff7`aefe11bd)
+00007ff7`aefe11b4 488d0ddd620000  lea     rcx,[ClimbToTop!`string' (00007ff7`aefe7498)]
+00007ff7`aefe11bb ebbc            jmp     ClimbToTop!main+0x39 (00007ff7`aefe1179)
+00007ff7`aefe11bd 488bd3          mov     rdx,rbx
+00007ff7`aefe11c0 33c9            xor     ecx,ecx
+00007ff7`aefe11c2 ff15385e0000    call    qword ptr [ClimbToTop!_imp_SizeofResource (00007ff7`aefe7000)]
+00007ff7`aefe11c8 8bd8            mov     ebx,eax
+00007ff7`aefe11ca 85c0            test    eax,eax
+00007ff7`aefe11cc 7521            jne     ClimbToTop!main+0xaf (00007ff7`aefe11ef)
+00007ff7`aefe11ce 488d0ddb620000  lea     rcx,[ClimbToTop!`string' (00007ff7`aefe74b0)]
+00007ff7`aefe11d5 ff1565600000    call    qword ptr [ClimbToTop!_imp_puts (00007ff7`aefe7240)]
+00007ff7`aefe11db ff152f5e0000    call    qword ptr [ClimbToTop!_imp_GetLastError (00007ff7`aefe7010)]
+00007ff7`aefe11e1 8bd0            mov     edx,eax
+00007ff7`aefe11e3 488d0d9e620000  lea     rcx,[ClimbToTop!`string' (00007ff7`aefe7488)]
+00007ff7`aefe11ea e831feffff      call    ClimbToTop!printf (00007ff7`aefe1020)
+00007ff7`aefe11ef 488d0dd2620000  lea     rcx,[ClimbToTop!`string' (00007ff7`aefe74c8)]
+00007ff7`aefe11f6 48891d13850000  mov     qword ptr [ClimbToTop!g_Size (00007ff7`aefe9710)],rbx
+00007ff7`aefe11fd ff153d600000    call    qword ptr [ClimbToTop!_imp_puts (00007ff7`aefe7240)]
+00007ff7`aefe1203 e898250000      call    ClimbToTop!DetourTransactionBegin (00007ff7`aefe37a0)
+00007ff7`aefe1208 ff150a5e0000    call    qword ptr [ClimbToTop!_imp_GetCurrentThread (00007ff7`aefe7018)]
+00007ff7`aefe120e 488bc8          mov     rcx,rax
+00007ff7`aefe1211 e8aa2a0000      call    ClimbToTop!DetourUpdateThread (00007ff7`aefe3cc0)
+00007ff7`aefe1216 488d1563feffff  lea     rdx,[ClimbToTop!NewLockResource (00007ff7`aefe1080)]
+00007ff7`aefe121d 488d0df4840000  lea     rcx,[ClimbToTop!pfnLockResource (00007ff7`aefe9718)]
+00007ff7`aefe1224 e8571b0000      call    ClimbToTop!DetourAttach (00007ff7`aefe2d80)
+00007ff7`aefe1229 e8e2250000      call    ClimbToTop!DetourTransactionCommit (00007ff7`aefe3810)
+00007ff7`aefe122e 488bcf          mov     rcx,rdi
+00007ff7`aefe1231 ff15e95d0000    call    qword ptr [ClimbToTop!_imp_LockResource (00007ff7`aefe7020)]
+------------------------------------------------ERROR-------------------------------------------------------
+00007ff7`aefe1237 488bf8          mov     rdi,rax
+00007ff7`aefe123a e861250000      call    ClimbToTop!DetourTransactionBegin (00007ff7`aefe37a0)
+00007ff7`aefe123f ff15d35d0000    call    qword ptr [ClimbToTop!_imp_GetCurrentThread (00007ff7`aefe7018)]
+00007ff7`aefe1245 488bc8          mov     rcx,rax
+00007ff7`aefe1248 e8732a0000      call    ClimbToTop!DetourUpdateThread (00007ff7`aefe3cc0)
+00007ff7`aefe124d 488d152cfeffff  lea     rdx,[ClimbToTop!NewLockResource (00007ff7`aefe1080)]
+00007ff7`aefe1254 488d0dbd840000  lea     rcx,[ClimbToTop!pfnLockResource (00007ff7`aefe9718)]
+00007ff7`aefe125b e8a0210000      call    ClimbToTop!DetourDetach (00007ff7`aefe3400)
+00007ff7`aefe1260 e8ab250000      call    ClimbToTop!DetourTransactionCommit (00007ff7`aefe3810)
+00007ff7`aefe1265 4885ff          test    rdi,rdi
+00007ff7`aefe1268 7521            jne     ClimbToTop!main+0x14b (00007ff7`aefe128b)
+00007ff7`aefe126a 488d0d97620000  lea     rcx,[ClimbToTop!`string' (00007ff7`aefe7508)]
+00007ff7`aefe1271 ff15c95f0000    call    qword ptr [ClimbToTop!_imp_puts (00007ff7`aefe7240)]
+00007ff7`aefe1277 ff15935d0000    call    qword ptr [ClimbToTop!_imp_GetLastError (00007ff7`aefe7010)]
+00007ff7`aefe127d 8bd0            mov     edx,eax
+00007ff7`aefe127f 488d0d02620000  lea     rcx,[ClimbToTop!`string' (00007ff7`aefe7488)]
+00007ff7`aefe1286 e895fdffff      call    ClimbToTop!printf (00007ff7`aefe1020)
+00007ff7`aefe128b ff15775d0000    call    qword ptr [ClimbToTop!_imp_GetCurrentProcess (00007ff7`aefe7008)]
+00007ff7`aefe1291 448bc3          mov     r8d,ebx
+00007ff7`aefe1294 488bd7          mov     rdx,rdi
+00007ff7`aefe1297 488bc8          mov     rcx,rax
+00007ff7`aefe129a e801020000      call    ClimbToTop!LoadRemoteLibraryR (00007ff7`aefe14a0)
+00007ff7`aefe129f 488b5c2430      mov     rbx,qword ptr [rsp+30h]
+00007ff7`aefe12a4 33c0            xor     eax,eax
+00007ff7`aefe12a6 4883c420        add     rsp,20h
+00007ff7`aefe12aa 5f              pop     rdi
+00007ff7`aefe12ab c3              ret
+
+
+
+
+
+
+
+00007ff7`aefe1080 4883ec28        sub     rsp,28h
+00007ff7`aefe1084 ff158e860000    call    qword ptr [ClimbToTop!pfnLockResource (00007ff7`aefe9718)]
+00007ff7`aefe108a 4c8b057f860000  mov     r8,qword ptr [ClimbToTop!g_Size (00007ff7`aefe9710)]
+00007ff7`aefe1091 33c9            xor     ecx,ecx
+00007ff7`aefe1093 4c8bc8          mov     r9,rax
+00007ff7`aefe1096 498d4001        lea     rax,[r8+1]
+00007ff7`aefe109a 4883f840        cmp     rax,40h
+00007ff7`aefe109e 726b            jb      ClimbToTop!NewLockResource+0x8b (00007ff7`aefe110b)
+00007ff7`aefe10a0 660f6f1598640000 movdqa  xmm2,xmmword ptr [ClimbToTop!_xmm (00007ff7`aefe7540)]
+00007ff7`aefe10a8 498d5110        lea     rdx,[r9+10h]
+00007ff7`aefe10ac 83e03f          and     eax,3Fh
+00007ff7`aefe10af 4d8bd0          mov     r10,r8
+00007ff7`aefe10b2 4c2bd0          sub     r10,rax
+00007ff7`aefe10b5 6666660f1f840000000000 nop word ptr [rax+rax]
+00007ff7`aefe10c0 f30f6f42f0      movdqu  xmm0,xmmword ptr [rdx-10h]
+00007ff7`aefe10c5 83c140          add     ecx,40h
+00007ff7`aefe10c8 488d5240        lea     rdx,[rdx+40h]
+00007ff7`aefe10cc 4863c1          movsxd  rax,ecx
+00007ff7`aefe10cf 660fefc2        pxor    xmm0,xmm2
+00007ff7`aefe10d3 f30f7f42b0      movdqu  xmmword ptr [rdx-50h],xmm0
+00007ff7`aefe10d8 f30f6f4ac0      movdqu  xmm1,xmmword ptr [rdx-40h]
+00007ff7`aefe10dd 660fefca        pxor    xmm1,xmm2
+00007ff7`aefe10e1 f30f7f4ac0      movdqu  xmmword ptr [rdx-40h],xmm1
+00007ff7`aefe10e6 660f6fca        movdqa  xmm1,xmm2
+00007ff7`aefe10ea f30f6f42d0      movdqu  xmm0,xmmword ptr [rdx-30h]
+00007ff7`aefe10ef 660fefc2        pxor    xmm0,xmm2
+00007ff7`aefe10f3 f30f7f42d0      movdqu  xmmword ptr [rdx-30h],xmm0
+00007ff7`aefe10f8 f30f6f42e0      movdqu  xmm0,xmmword ptr [rdx-20h]
+00007ff7`aefe10fd 660fefc8        pxor    xmm1,xmm0
+00007ff7`aefe1101 f30f7f4ae0      movdqu  xmmword ptr [rdx-20h],xmm1
+00007ff7`aefe1106 493bc2          cmp     rax,r10
+00007ff7`aefe1109 76b5            jbe     ClimbToTop!NewLockResource+0x40 (00007ff7`aefe10c0)
+00007ff7`aefe110b 4863c1          movsxd  rax,ecx
+00007ff7`aefe110e 493bc0          cmp     rax,r8
+00007ff7`aefe1111 771e            ja      ClimbToTop!NewLockResource+0xb1 (00007ff7`aefe1131)
+00007ff7`aefe1113 4a8d1408        lea     rdx,[rax+r9]
+00007ff7`aefe1117 660f1f840000000000 nop   word ptr [rax+rax]
+00007ff7`aefe1120 803276          xor     byte ptr [rdx],76h
+00007ff7`aefe1123 488d5201        lea     rdx,[rdx+1]
+00007ff7`aefe1127 ffc1            inc     ecx
+00007ff7`aefe1129 4863c1          movsxd  rax,ecx
+00007ff7`aefe112c 493bc0          cmp     rax,r8
+00007ff7`aefe112f 76ef            jbe     ClimbToTop!NewLockResource+0xa0 (00007ff7`aefe1120)
+00007ff7`aefe1131 498bc1          mov     rax,r9
+00007ff7`aefe1134 4883c428        add     rsp,28h
+00007ff7`aefe1138 c3              ret
+
+
+
+
+
