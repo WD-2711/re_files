@@ -1,0 +1,601 @@
+{
+  "Mi Note 3": {
+    "camera_api_type": 1,
+    "is_support_zoom": true,
+    "is_support_focus": true,
+    "is_support_exposure_compensation": true,
+    "time_after_tap_focus": 3000
+  },
+  "DOOV L925": {
+    "camera_api_type": 1,
+    "is_support_zoom": true,
+    "is_support_focus": true,
+    "is_support_exposure_compensation": true,
+    "time_after_tap_focus": 3000
+  },
+  "A55": {
+    "camera_api_type": 1,
+    "is_support_zoom": true,
+    "is_support_focus": true,
+    "is_support_exposure_compensation": true,
+    "time_after_tap_focus": 3000
+  },
+  "DOOV A55": {
+    "camera_api_type": 1,
+    "is_support_zoom": true,
+    "is_support_focus": true,
+    "is_support_exposure_compensation": true,
+    "time_after_tap_focus": 3000
+  },
+  "vivo X6Plus A": {
+    "camera_api_type": 1,
+    "is_support_zoom": true,
+    "is_support_focus": true,
+    "is_support_exposure_compensation": true,
+    "time_after_tap_focus": 3000
+  },
+  "R7Plus": {
+    "camera_api_type": 1,
+    "is_support_zoom": true,
+    "is_support_focus": true,
+    "is_support_exposure_compensation": true,
+    "time_after_tap_focus": 3000
+  },
+  "JSN-AL00a": {
+    "camera_api_type": 1
+  },
+  "vivo X5Pro V": {
+    "camera_api_type": 1
+  },
+  "vivo y31A": {
+    "camera_api_type": 1
+  },
+  "vivo Y51A": {
+    "camera_api_type": 1
+  },
+  "vivo Y51": {
+    "camera_api_type": 1
+  },
+  "vivo Y35": {
+    "camera_api_type": 1
+  },
+  "Redmi Note 3": {
+    "camera_api_type": 1
+  },
+  "Redmi Note 2": {
+    "camera_api_type": 1
+  },
+  "vivo X6A": {
+    "camera_api_type": 1
+  },
+  "vivo Y37": {
+    "camera_api_type": 1
+  },
+  "vivo Y35A": {
+    "camera_api_type": 1
+  },
+  "vivo X5Pro D": {
+    "camera_api_type": 1
+  },
+  "vivo Y37A": {
+    "camera_api_type": 1
+  },
+  "vivo Y937": {
+    "camera_api_type": 1
+  },
+  "OPPO A79t": {
+    "camera_api_type": 1
+  },
+  "V1930A": {
+    "camera_api_type": 1
+  },
+  "vivo X9": {
+    "is_support_face_lift": false,
+    "camera_api_type": 1,
+    "close_need_wait": false,
+    "close_need_wait_os_version": 26
+  },
+  "OPPO A5": {
+    "camera_api_type": 1
+  },
+  "vivo Y66i": {
+    "camera_api_type": 1
+  },
+  "vivo Y66i A": {
+    "camera_api_type": 1
+  },
+  "vivo Y79A": {
+    "camera_api_type": 1
+  },
+  "Redmi Note 7": {
+    "camera_api_type": 1
+  },
+  "Redmi 7": {
+    "camera_api_type": 1
+  },
+  "Redmi Note 8": {
+    "camera_api_type": 1
+  },
+  "M2006J10C": {
+    "camera_api_type": 1
+  },
+  "GIONEE S10": {
+    "camera_api_type": 1
+  },
+  "GIONEE M7": {
+    "camera_api_type": 1
+  },
+  "GIONEE S10L": {
+    "camera_api_type": 1
+  },
+  "GIONEE GN5007": {
+    "camera_api_type": 1
+  },
+  "GIONEE M7L": {
+    "camera_api_type": 1
+  },
+  "20190418Q": {
+    "camera_api_type": 1
+  },
+  "20190419Q": {
+    "camera_api_type": 1
+  },
+  "GIONEE S10C": {
+    "camera_api_type": 1
+  },
+  "GN8002S": {
+    "camera_api_type": 1
+  },
+  "GN8003": {
+    "camera_api_type": 1
+  },
+  "20190620G": {
+    "camera_api_type": 1
+  },
+  "GIONEE GN5007L": {
+    "camera_api_type": 1
+  },
+  "GIONEE S10CL": {
+    "camera_api_type": 1
+  },
+  "GIONEEF40": {
+    "camera_api_type": 1
+  },
+  "GIONEE F6": {
+    "camera_api_type": 1
+  },
+  "GLY1620": {
+    "camera_api_type": 1
+  },
+  "GIONEE S10B": {
+    "camera_api_type": 1
+  },
+  "GIONEE K40S": {
+    "camera_api_type": 1
+  },
+  "GN5005": {
+    "camera_api_type": 1
+  },
+  "S9": {
+    "camera_api_type": 1
+  },
+  "GIONEE F6L": {
+    "camera_api_type": 1
+  },
+  "20190619G": {
+    "camera_api_type": 1
+  },
+  "GIONEE S10BL": {
+    "camera_api_type": 1
+  },
+  "GIONEE S11": {
+    "camera_api_type": 1
+  },
+  "F6Pro": {
+    "camera_api_type": 1
+  },
+  "GN9012": {
+    "camera_api_type": 1
+  },
+  "F5": {
+    "camera_api_type": 1
+  },
+  "GN5003": {
+    "camera_api_type": 1
+  },
+  "F100S": {
+    "camera_api_type": 1
+  },
+  "GN5005L": {
+    "camera_api_type": 1
+  },
+  "GN3003": {
+    "camera_api_type": 1
+  },
+  "GN3001": {
+    "camera_api_type": 1
+  },
+  "GIONEEK7": {
+    "camera_api_type": 1
+  },
+  "GIONEE K40Pro": {
+    "camera_api_type": 1
+  },
+  "GAU0820": {
+    "camera_api_type": 1
+  },
+  "GN9011": {
+    "camera_api_type": 1
+  },
+  "F6 pro": {
+    "camera_api_type": 1
+  },
+  "GN8003L": {
+    "camera_api_type": 1
+  },
+  "GIONEE M12PRO": {
+    "camera_api_type": 1
+  },
+  "GIONEE S11L": {
+    "camera_api_type": 1
+  },
+  "GIONEE S20": {
+    "camera_api_type": 1
+  },
+  "GN8002": {
+    "camera_api_type": 1
+  },
+  "GIONEE F12PRO": {
+    "camera_api_type": 1
+  },
+  "S11": {
+    "camera_api_type": 1
+  },
+  "M2017": {
+    "camera_api_type": 1
+  },
+  "F106": {
+    "camera_api_type": 1
+  },
+  "GIONEE F12 PRO": {
+    "camera_api_type": 1
+  },
+  "GIONEE GN5006": {
+    "camera_api_type": 1
+  },
+  "GIONEE M30Pro": {
+    "camera_api_type": 1
+  },
+  "F100L": {
+    "camera_api_type": 1
+  },
+  "GIONEE F7": {
+    "camera_api_type": 1
+  },
+  "GN5601": {
+    "camera_api_type": 1
+  },
+  "GIONEE M40PRO": {
+    "camera_api_type": 1
+  },
+  "GN3002": {
+    "camera_api_type": 1
+  },
+  "S9L": {
+    "camera_api_type": 1
+  },
+  "GSE1020": {
+    "camera_api_type": 1
+  },
+  "GIONEE K3Pro": {
+    "camera_api_type": 1
+  },
+  "F100": {
+    "camera_api_type": 1
+  },
+  "M6SPlus": {
+    "camera_api_type": 1
+  },
+  "GIONEE M50Pro": {
+    "camera_api_type": 1
+  },
+  "F106L": {
+    "camera_api_type": 1
+  },
+  "GIONEE F109L": {
+    "camera_api_type": 1
+  },
+  "GIONEEF12 PRO": {
+    "camera_api_type": 1
+  },
+  "GIONEE M40Pro": {
+    "camera_api_type": 1
+  },
+  "GIONEEX50": {
+    "camera_api_type": 1
+  },
+  "GIONEE F205": {
+    "camera_api_type": 1
+  },
+  "GIONEE F40": {
+    "camera_api_type": 1
+  },
+  "GIONEE F109": {
+    "camera_api_type": 1
+  },
+  "GN3003L": {
+    "camera_api_type": 1
+  },
+  "F100SL": {
+    "camera_api_type": 1
+  },
+  "GIONEE F205L": {
+    "camera_api_type": 1
+  },
+  "GN3002L": {
+    "camera_api_type": 1
+  },
+  "G7820LY": {
+    "camera_api_type": 1
+  },
+  "GIONEE GN5006L": {
+    "camera_api_type": 1
+  },
+  "F100A": {
+    "camera_api_type": 1
+  },
+  "GIONEE K3 Pro": {
+    "camera_api_type": 1
+  },
+  "F6": {
+    "camera_api_type": 1
+  },
+  "GN3001L": {
+    "camera_api_type": 1
+  },
+  "G20200416": {
+    "camera_api_type": 1
+  },
+  "GIONEE S11S": {
+    "camera_api_type": 1
+  },
+  "5G": {
+    "camera_api_type": 1
+  },
+  "GIONEE F109N": {
+    "camera_api_type": 1
+  },
+  "M7L": {
+    "camera_api_type": 1
+  },
+  "S10B": {
+    "camera_api_type": 1
+  },
+  "GIONEE K6": {
+    "camera_api_type": 1
+  },
+  "GIONEE K11Pro": {
+    "camera_api_type": 1
+  },
+  "F11": {
+    "camera_api_type": 1
+  },
+  "F100B": {
+    "camera_api_type": 1
+  },
+  "GIONEE M7Plus": {
+    "camera_api_type": 1
+  },
+  "DUB-AL00": {
+    "camera_api_type": 1
+  },
+  "V1965A": {
+    "camera_api_type": 1
+  },
+  "V1901A": {
+    "camera_api_type": 1
+  },
+  "Royole FlexPai 2": {
+    "camera_api_type": 1
+  },
+  "iQOO U3": {
+    "camera_api_type": 1
+  },
+  "PEGM00": {
+    "camera_api_type": 1
+  },
+  "PEGT00": {
+    "camera_api_type": 1
+  },
+  "PDRM00": {
+    "camera_api_type": 1
+  },
+  "XT1943-1": {
+    "camera_api_type": 1
+  },
+  "XT2125-4": {
+    "camera_api_type": 1
+  },
+  "XT1924-9": {
+    "camera_api_type": 1
+  },
+  "XT2137-2": {
+    "camera_api_type": 1
+  },
+  "XT1941-2": {
+    "camera_api_type": 1
+  },
+  "XT1799-2": {
+    "camera_api_type": 1
+  },
+  "XT1942-1": {
+    "camera_api_type": 1
+  },
+  "XT1925-10": {
+    "camera_api_type": 1
+  },
+  "vivo NEX A": {
+    "camera_api_type": 1
+  },
+  "MI 9 SE": {
+    "camera_api_type": 1
+  },
+  "MI 9": {
+    "is_support_face_lift": true,
+    "camera_api_type": 1
+  },
+  "FLA-AL10": {
+    "camera_api_type": 1
+  },
+  "M2104K10AC": {
+    "camera_api_type": 1
+  },
+  "ELE-AL00": {
+    "is_support_face_lift": true
+  },
+  "ELE-TL00": {
+    "is_support_face_lift": true
+  },
+  "VOG-AL10": {
+    "is_support_face_lift": true
+  },
+  "VOG-AL00": {
+    "is_support_face_lift": true
+  },
+  "VOG-TL00": {
+    "is_support_face_lift": true
+  },
+  "TAS-AL00": {
+    "is_support_face_lift": true
+  },
+  "TAS-AN00": {
+    "is_support_face_lift": true
+  },
+  "TAS-TL00": {
+    "is_support_face_lift": true
+  },
+  "TAS-TN00": {
+    "is_support_face_lift": true
+  },
+  "LIO-AN00P": {
+    "is_support_face_lift": true
+  },
+  "LIO-AL00": {
+    "is_support_face_lift": true
+  },
+  "LIO-AN00": {
+    "is_support_face_lift": true
+  },
+  "LIO-TN00": {
+    "is_support_face_lift": true
+  },
+  "LIO-TL00": {
+    "is_support_face_lift": true
+  },
+  "LYA-AL00": {
+    "is_support_face_lift": true
+  },
+  "LYA-AL00P": {
+    "is_support_face_lift": true
+  },
+  "HMA-AL00": {
+    "is_support_face_lift": true
+  },
+  "HMA-TL00": {
+    "is_support_face_lift": true
+  },
+  "EML-AL00": {
+    "is_support_face_lift": true
+  },
+  "EML-TL00": {
+    "is_support_face_lift": true
+  },
+  "CLT-TL00": {
+    "is_support_face_lift": true
+  },
+  "CLT-AL00": {
+    "is_support_face_lift": true
+  },
+  "CLT-AL01": {
+    "is_support_face_lift": true
+  },
+  "ELS-AN00": {
+    "is_support_face_lift": true
+  },
+  "ELS-TN00": {
+    "is_support_face_lift": true
+  },
+  "ANA-AN00": {
+    "is_support_face_lift": true
+  },
+  "ANA-TN00": {
+    "is_support_face_lift": true
+  },
+  "MI 9 Pro": {
+    "is_support_face_lift": true
+  },
+  "Mi 10 Pro": {
+    "is_support_face_lift": true
+  },
+  "Mi 10": {
+    "is_support_face_lift": true
+  },
+  "Redmi K30 Pro": {
+    "is_support_face_lift": true
+  },
+  "Redmi 6": {
+    "is_support_face_lift": false
+  },
+  "V1928A": {
+    "camera_api_type": 1
+  },
+  "V1818CA": {
+    "camera_api_type": 2,
+    "camera_api_fallback_sdk_version": 26
+  },
+  "V1818CT": {
+    "camera_api_type": 2,
+    "camera_api_fallback_sdk_version": 26
+  },
+  "PBBM00": {
+    "close_need_wait": false,
+    "close_need_wait_os_version": 29
+  },
+  "PBBT00": {
+    "close_need_wait": false,
+    "close_need_wait_os_version": 29
+  },
+  "vivo": {
+    "record_bitrate_mode_cbr": true
+  },
+  "DEFAULT": {
+    "camera_api_type": 2,
+    "camera_api_fallback_sdk_version": 29,
+    "is_support_zoom": true,
+    "is_support_focus": true,
+    "is_support_exposure_compensation": true,
+    "is_support_preview_fixed_fps": true,
+    "is_support_face_lift": true,
+    "time_after_tap_focus": 3000,
+    "close_need_wait": true,
+    "close_need_wait_os_version": 0,
+    "capture_la_thresh":40,
+    "capture_lb_thresh":70,
+    "capture_lc_thresh":100,
+    "capture_ld_thresh":200,
+    "render_detect_la_thresh":15,
+    "render_detect_lb_thresh":30,
+    "render_detect_lc_thresh":70,
+    "render_detect_ld_thresh":150,
+    "record_bitrate_mode_cbr": false,
+    "pic_max_detect_number": 5,
+    "pic_detect_interval": 1,
+    "pic_min_pass_number": 60,
+    "multi_camera_check_interval": 3000,
+    "no_capture_interval_thresh": 200,
+    "no_capture_opened_dur_thresh": 2000,
+    "wait_close_camera_timeout": 500,
+    "preload_business_list": ["comment"],
+    "bytebuffer_pool_business_list": ["comment","pdd_capture"]
+  }
+}

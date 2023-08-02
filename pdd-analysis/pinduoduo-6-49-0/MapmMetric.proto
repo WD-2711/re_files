@@ -1,0 +1,37 @@
+syntax = "proto3";
+option java_package = "com.xunmeng.pinduoduo.basiccomponent.reporter.pmm";
+option java_outer_classname = "MetricProto";
+package com.xunmeng.pinduoduo.basiccomponent.reporter.pmm;
+
+message Metric {
+    int32 version = 1;
+    int64 report_time_ms = 2;
+    int32 rand_num = 3;
+    int64 crc32 = 4;
+    string biz_side = 5;
+    string app = 6;
+    map<string, string> common_tags = 7;
+    repeated Data datas = 8;
+    int32 level = 9;
+}
+
+// 通用数据格式
+message Data {
+    int32 category = 1;
+    int32 type = 2;
+    string id_raw_value = 3;
+    int64 timestamp = 4;
+    map<string, string> tags = 5;
+    map<string, string> extras = 6;
+    map<string, FieldLong> lvalues = 7;
+    map<string, FieldFloat> fvalues = 8;
+    int32 api_ratio = 9;
+}
+
+message FieldLong {
+    repeated int64 values = 1;
+}
+
+message FieldFloat {
+    repeated float values = 1;
+}

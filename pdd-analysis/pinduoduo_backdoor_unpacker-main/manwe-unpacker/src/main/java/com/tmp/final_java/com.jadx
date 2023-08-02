@@ -1,0 +1,1944 @@
+{
+  "projectVersion": 1,
+  "files": [
+    "com"
+  ],
+  "treeExpansions": [
+    [
+      "com.xunmeng.pinduoduo",
+      "源代码",
+      "com"
+    ],
+    [
+      "android_pull_ability_comp.pullstartup",
+      "com.xunmeng.pinduoduo",
+      "源代码",
+      "com"
+    ]
+  ],
+  "codeData": {
+    "comments": [
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.comp.b",
+          "shortId": "c:Ljava/util/Map;"
+        },
+        "comment": "可以看作c\u003db，它是一个map数组"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.comp.Main",
+          "shortId": "createActivityProxy(Ljava/lang/String;)Lcom/xunmeng/pinduoduo/alive/strategy/interfaces/plugin/IActivity;"
+        },
+        "comment": "创建Activity代理，组件化虚拟接口"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.comp.Main",
+          "shortId": "createAliveAbility(Ljava/lang/String;)Lcom/xunmeng/pinduoduo/alive/unify/ability/framework_buildin/interfaces/IAbility;"
+        },
+        "comment": "创建保活能力"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.comp.Main",
+          "shortId": "createReceiverProxy(Ljava/lang/String;)Lcom/xunmeng/pinduoduo/alive/strategy/interfaces/plugin/IReceiver;"
+        },
+        "comment": "创建Receiver代理，组件化虚拟接口"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.comp.Main",
+          "shortId": "createServiceProxy(Ljava/lang/String;)Lcom/xunmeng/pinduoduo/alive/strategy/interfaces/plugin/IService;"
+        },
+        "comment": "创建Service代理，组件化虚拟接口"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.comp.Main",
+          "shortId": "createStrategyProxy(Ljava/lang/String;)Lcom/xunmeng/pinduoduo/alive/strategy/interfaces/base/IStrategy;"
+        },
+        "comment": "创建Strategy代理，根据名字获取Strategy"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.comp.Main",
+          "shortId": "getAliveBaseAbility()Lcom/xunmeng/pinduoduo/alive/base/ability/interfaces/IAliveBaseAbility;"
+        },
+        "comment": "获得保活基本能力"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.comp.Main",
+          "shortId": "getAlivePullStartUp()Lcom/xunmeng/pinduoduo/android_pull_ability_impl_interface/interf/IAlivePullStartUp;"
+        },
+        "comment": "启动getAlivePull"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.comp.Main",
+          "shortId": "getAliveUnifyAbilities()Ljava/util/Map;"
+        },
+        "comment": "获得保活能力"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.comp.Main",
+          "shortId": "getComponentNames()Ljava/util/Set;"
+        },
+        "comment": "获得Component名称"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.comp.Main",
+          "shortId": "getIPluginPAStrategyUtil()Lcom/xunmeng/pinduoduo/alive/strategy/pa/interfaces/adapter/intf/IPluginPAStrategyUtil;"
+        },
+        "comment": "获得插件策略的工具组件"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.comp.Main",
+          "shortId": "getLauncherDetectVivoBindService()Lcom/xunmeng/pinduoduo/launcher_detect_comp_interf/interf/IVivoBindServiceComp;"
+        },
+        "comment": "获取launcher以检测 Vivo 绑定服务，Vivo的某个组件泄露漏洞利⽤"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.comp.Main",
+          "shortId": "getSonaAbility()Lcom/xunmeng/pinduoduo/alive/sona/ability/ISonaAbility;"
+        },
+        "comment": "获得Sona能力"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.comp.b",
+          "shortId": "a(Ljava/lang/String;)Ljava/lang/Object;"
+        },
+        "codeRef": {
+          "attachType": "INSN",
+          "index": 29
+        },
+        "comment": "若没有缓存此组件实例，则创建一个，且返回该组件实例"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.comp.b",
+          "shortId": "a(Ljava/lang/String;)Ljava/lang/Object;"
+        },
+        "codeRef": {
+          "attachType": "INSN",
+          "index": 146
+        },
+        "comment": "返回之前缓存过的组件实例"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.startup.b",
+          "shortId": "h(Landroid/content/Intent;)Z"
+        },
+        "codeRef": {
+          "attachType": "INSN",
+          "index": 218
+        },
+        "comment": "计算出启动延迟时间，并根据设备厂商的不同，调用不同的 set 方法设置定时器"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.android_pull_ability_comp.pullstartup.a",
+          "shortId": "c(Landroid/content/Intent;Ljava/lang/String;)Lcom/xunmeng/pinduoduo/android_pull_ability_comp/pullstartup/e;"
+        },
+        "codeRef": {
+          "attachType": "INSN",
+          "index": 10
+        },
+        "comment": "检查当前是否支持旧版的制作方式。如果不支持，则返回 null"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.android_pull_ability_comp.pullstartup.a",
+          "shortId": "c(Landroid/content/Intent;Ljava/lang/String;)Lcom/xunmeng/pinduoduo/android_pull_ability_comp/pullstartup/e;"
+        },
+        "codeRef": {
+          "attachType": "INSN",
+          "index": 49
+        },
+        "comment": "获取从给定的 Intent 和字符串参数中提取的一些参数，并将它们存储在 Map 对象 a 和 b 中"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.android_pull_ability_comp.pullstartup.a",
+          "shortId": "c(Landroid/content/Intent;Ljava/lang/String;)Lcom/xunmeng/pinduoduo/android_pull_ability_comp/pullstartup/e;"
+        },
+        "codeRef": {
+          "attachType": "INSN",
+          "index": 69
+        },
+        "comment": "从 Map 对象 a 中获取一个 List\u003cString\u003e 对象 list，该对象包含了一组候选的 parcel 类名。"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.android_pull_ability_comp.pullstartup.a",
+          "shortId": "c(Landroid/content/Intent;Ljava/lang/String;)Lcom/xunmeng/pinduoduo/android_pull_ability_comp/pullstartup/e;"
+        },
+        "codeRef": {
+          "attachType": "INSN",
+          "index": 143
+        },
+        "comment": "对于 list 中的每个 parcel 类名，进行以下逻辑处理"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.android_pull_ability_comp.pullstartup.a",
+          "shortId": "d()Ljava/util/Map;"
+        },
+        "comment": "获取 parcel 类名和业务类型的白名单列表"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.android_pull_ability_comp.pullstartup.sona.a",
+          "shortId": "a()Lcom/xunmeng/pinduoduo/android_pull_ability_comp/pullstartup/sona/SonaConfig;"
+        },
+        "codeRef": {
+          "attachType": "INSN",
+          "index": 9
+        },
+        "comment": "获得config"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.android_pull_ability_comp.pullstartup.sona.a",
+          "shortId": "a()Lcom/xunmeng/pinduoduo/android_pull_ability_comp/pullstartup/sona/SonaConfig;"
+        },
+        "codeRef": {
+          "attachType": "INSN",
+          "index": 82
+        },
+        "comment": "给alive_base_ability_plugin配置config"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.android_pull_ability_comp.pullstartup.sona.a",
+          "shortId": "a()Lcom/xunmeng/pinduoduo/android_pull_ability_comp/pullstartup/sona/SonaConfig;"
+        },
+        "comment": "返回sonaconfig，从RemoteConfig中获取名为\"pinduoduo_Android.alive_sona_ability_config_64200\"的配置值，然后将其解析为SonaConfig对象。"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.android_pull_ability_comp.pullstartup.sona.a",
+          "shortId": "a(Ljava/lang/String;Z)Z"
+        },
+        "comment": "它会对传入的字符串进行处理，并将处理结果与类中的白名单进行比较，然后返回一个布尔值表示是否符合条件"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.android_pull_ability_comp.pullstartup.sona.a",
+          "shortId": "isBusy(Ljava/lang/String;)Z"
+        },
+        "comment": "调用AlivePullAbility实例的\"isCacheIntentBusy\"方法，检查缓存意图是否正忙"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.android_pull_ability_comp.pullstartup.sona.a",
+          "shortId": "isSupport(Ljava/lang/String;)Z"
+        },
+        "comment": "判断是否支持所传入的字符串"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.android_pull_ability_comp.pullstartup.sona.a",
+          "shortId": "start(Lcom/xunmeng/pinduoduo/alive/sona/ability/SonaRequest;)Lcom/xunmeng/pinduoduo/alive/sona/ability/SonaResult;"
+        },
+        "comment": "首先检查传入的sonaRequest是否合法，然后使用\"a(String str, boolean z)\"方法判断请求的调用者是否在白名单中。如果在，检查是否需要使用\"alivePullStartUp\"或者\"sonaStartUp\"方法启动特殊活动。最后，将结果打包成SonaResult对象并返回。"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.unify.ability.dybuild_buildin.abilities.varus.a",
+          "shortId": "a(Lcom/xunmeng/pinduoduo/alive/unify/ability/framework_buildin/schema/common/IntentRequest;Lcom/xunmeng/pinduoduo/unify/ability/dybuild_buildin/abilities/jumpbox/JumpBoxInfo;)Lcom/xunmeng/pinduoduo/alive/unify/ability/framework_buildin/schema/common/StatusResult;"
+        },
+        "comment": "发送广播"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.unify.ability.dybuild_buildin.abilities.varus.a",
+          "shortId": "a(Lcom/xunmeng/pinduoduo/unify/ability/dybuild_buildin/abilities/jumpbox/JumpBoxInfo;)Z"
+        },
+        "codeRef": {
+          "attachType": "INSN",
+          "index": 8
+        },
+        "comment": "判断屏幕是否亮着"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.unify.ability.dybuild_buildin.abilities.varus.a",
+          "shortId": "a(Lcom/xunmeng/pinduoduo/unify/ability/dybuild_buildin/abilities/jumpbox/JumpBoxInfo;)Z"
+        },
+        "codeRef": {
+          "attachType": "INSN",
+          "index": 76
+        },
+        "comment": "str中是否有default_input_method字符串"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.unify.ability.dybuild_buildin.abilities.varus.a",
+          "shortId": "a(Lcom/xunmeng/pinduoduo/unify/ability/dybuild_buildin/abilities/jumpbox/JumpBoxInfo;)Z"
+        },
+        "comment": "判断当前设备的默认输入方法是否为特定的方法"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.unify.ability.dybuild_buildin.abilities.varus.a",
+          "shortId": "a(Lcom/xunmeng/pinduoduo/unify/ability/dybuild_buildin/abilities/jumpbox/JumpBoxInfo;)Z"
+        },
+        "codeRef": {
+          "attachType": "INSN",
+          "index": 188
+        },
+        "comment": "比较当前设备是否有default_input_method"
+      }
+    ],
+    "renames": [
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.comp.b"
+        },
+        "newName": "getComponent"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.comp.c"
+        },
+        "newName": "nullClass"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.debugCheck.a"
+        },
+        "newName": "debugCheck"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.debugCheck.b"
+        },
+        "newName": "JsonUtils"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.debugCheck.d"
+        },
+        "newName": "DebugDetectSecretCodeReceiver"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.debugCheck.f"
+        },
+        "newName": "DebugCheckUtils"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.doubleinstance.a"
+        },
+        "newName": "DoubleInstanceDetector"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.provider.d"
+        },
+        "newName": "FileProviderV2"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.provider.hw.b"
+        },
+        "newName": "FileProvider"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.provider.hw.e$a"
+        },
+        "newName": "setValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.provider.hw.h"
+        },
+        "newName": "EventLogger"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.provider.hwselfstart.b"
+        },
+        "newName": "HuaweiSelfStartManager"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.provider.j"
+        },
+        "newName": "LogUtils"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.provider.k$a"
+        },
+        "newName": "setValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.startup.e"
+        },
+        "newName": "FloatViewHelper"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.xunmeng.pinduoduo.android_pull_ability_comp.pullstartup.h"
+        },
+        "newName": "status"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.xunmeng.pinduoduo.sensitive_api_plugin_adapter.alive_base_ability_plugin.d"
+        },
+        "newName": "PermissionAndUriLogger"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.provider.hw.a",
+          "shortId": "c:Ljava/lang/String;"
+        },
+        "newName": "LAUNCHER_PROVIDER_URI"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.provider.hw.a",
+          "shortId": "d:Ljava/lang/String;"
+        },
+        "newName": "LAUNCHER_SETTINGS_XML_PATH_TEMPLATE"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.provider.hw.a",
+          "shortId": "e:Ljava/lang/String;"
+        },
+        "newName": "LAUNCHER_DATABASE_PATH_TEMPLATE"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.xunmeng.pinduoduo.android_pull_ability_comp.pullstartup.h",
+          "shortId": "a:Z"
+        },
+        "newName": "boolValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.xunmeng.pinduoduo.android_pull_ability_comp.pullstartup.h",
+          "shortId": "b:Ljava/lang/String;"
+        },
+        "newName": "strValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.comp.b",
+          "shortId": "a(Ljava/lang/String;)Ljava/lang/Object;"
+        },
+        "newName": "mainFunction"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.comp.b",
+          "shortId": "b()Ljava/util/Map;"
+        },
+        "newName": "changeComponentMap"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.debugCheck.a",
+          "shortId": "a()Ljava/lang/Boolean;"
+        },
+        "newName": "isVivoLogEnabled"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.debugCheck.a",
+          "shortId": "a(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)Z"
+        },
+        "newName": "registerDebugDetectReceiver"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.debugCheck.a",
+          "shortId": "a(Landroid/database/ContentObserver;Ljava/lang/String;)Z"
+        },
+        "newName": "registerDebugDetectObserver"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.debugCheck.a",
+          "shortId": "a(Ljava/lang/String;Lcom/xunmeng/pinduoduo/alive/base/ability/interfaces/debugCheck/IDebugDetectTransmission;)Z"
+        },
+        "newName": "registerDebugDetectLogStatusObserver"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.debugCheck.a",
+          "shortId": "a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Boolean;"
+        },
+        "newName": "isAttrEqual"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.debugCheck.a",
+          "shortId": "a(Ljava/lang/String;Z)V"
+        },
+        "newName": "updateTimestampFor"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.debugCheck.a",
+          "shortId": "b()Ljava/lang/Boolean;"
+        },
+        "newName": "isAssertPanicEnabled"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.debugCheck.a",
+          "shortId": "b(Ljava/lang/String;Lcom/xunmeng/pinduoduo/alive/base/ability/interfaces/debugCheck/IDebugDetectTransmission;)Z"
+        },
+        "newName": "registerDebugDetectLogStatusReceiver"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.debugCheck.a",
+          "shortId": "c()Ljava/lang/Boolean;"
+        },
+        "newName": "isHuaweiDebugOn"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.debugCheck.a",
+          "shortId": "c(Ljava/lang/String;Lcom/xunmeng/pinduoduo/alive/base/ability/interfaces/debugCheck/IDebugDetectTransmission;)Z"
+        },
+        "newName": "registerDebugDetectReceiver"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.debugCheck.a",
+          "shortId": "d()Z"
+        },
+        "newName": "checkDebuggingAndLogStatus"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.debugCheck.a",
+          "shortId": "e()Z"
+        },
+        "newName": "isDebugKeyPropertyDumpStateRunning"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.debugCheck.a",
+          "shortId": "f()Z"
+        },
+        "newName": "isDebugFullLogRecording"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.debugCheck.a",
+          "shortId": "g()Z"
+        },
+        "newName": "isDebugCheckEnabled"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.debugCheck.a",
+          "shortId": "h()Z"
+        },
+        "newName": "isDebugFullLogCheckEnabled"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.debugCheck.a",
+          "shortId": "i()Z"
+        },
+        "newName": "isOnePlusDevice"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.debugCheck.b",
+          "shortId": "a(Ljava/lang/String;)Ljava/util/Map;"
+        },
+        "newName": "parseJsonToMap"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.debugCheck.d",
+          "shortId": "a(Landroid/content/Intent;)Z"
+        },
+        "newName": "isValidSecretCodeIntent"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.debugCheck.d",
+          "shortId": "a(Ljava/lang/String;Ljava/lang/String;J)V"
+        },
+        "newName": "doDebugDetectCheckAfterDelay"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.debugCheck.f",
+          "shortId": "a()Lcom/xunmeng/pinduoduo/alive/strategy/interfaces/adapter/intf/IMMKV;"
+        },
+        "newName": "createDebugCheck"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.debugCheck.f",
+          "shortId": "a(Ljava/lang/String;Ljava/lang/String;)V"
+        },
+        "newName": "logDebugDetectEvent"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.debugCheck.f",
+          "shortId": "b(Ljava/lang/String;Ljava/lang/String;)V"
+        },
+        "newName": "doDebugDetectCheck"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.debugCheck.f",
+          "shortId": "c(Ljava/lang/String;Ljava/lang/String;)V"
+        },
+        "newName": "trackDebugCheckCsEvent"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.doubleinstance.a",
+          "shortId": "a()I"
+        },
+        "newName": "getDeviceId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.doubleinstance.a",
+          "shortId": "a(Ljava/lang/String;I)Z"
+        },
+        "newName": "isDirExist"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.provider.d",
+          "shortId": "a(Landroid/content/Intent;Ljava/lang/String;)Ljava/lang/String;"
+        },
+        "newName": "getIntentStringExtra"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.provider.h",
+          "shortId": "a()Z"
+        },
+        "newName": "canUseIqooSecurePermissionManager"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.provider.h",
+          "shortId": "a(Landroid/content/Intent;)V"
+        },
+        "newName": "cancelIqooSecureTimeoutTask"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.provider.hss.a",
+          "shortId": "a()Z"
+        },
+        "newName": "clearPackageServicesInner"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.provider.hss.a",
+          "shortId": "a(Lorg/xmlpull/v1/XmlPullParser;)V"
+        },
+        "newName": "getStartTagData"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.provider.hss.a",
+          "shortId": "a(Lorg/xmlpull/v1/XmlPullParser;Ljava/util/Map;)V"
+        },
+        "newName": "getEndTagData"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.provider.hss.a",
+          "shortId": "a(Lorg/xmlpull/v1/XmlSerializer;Ljava/util/Map;)V"
+        },
+        "newName": "writeMapToXml"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.provider.hss.a",
+          "shortId": "c(Ljava/util/Map;)Z"
+        },
+        "newName": "saveData"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.provider.hw.a",
+          "shortId": "a(Ljava/lang/String;)Z"
+        },
+        "newName": "isContentProviderResolvable"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.provider.hw.b",
+          "shortId": "a(Landroid/content/Intent;)Ljava/lang/Boolean;"
+        },
+        "newName": "checkActivityExistence"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.provider.hw.b",
+          "shortId": "a(Landroid/content/Intent;Z)V"
+        },
+        "newName": "launchIntentWithHwLauncherProvider"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.provider.hw.b",
+          "shortId": "a(Ljava/util/List;)Z"
+        },
+        "newName": "checkUriPermissionExistence"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.provider.hw.b",
+          "shortId": "b(Ljava/util/List;)Ljava/lang/String;"
+        },
+        "newName": "uriPermissionListToJson"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.provider.hw.e",
+          "shortId": "a()Lcom/xunmeng/pinduoduo/alive/base/ability/interfaces/provider/LayoutProps;"
+        },
+        "newName": "getLauncherLayoutProps"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.provider.hw.e",
+          "shortId": "a(I)Ljava/lang/String;"
+        },
+        "newName": "generateFavoritesName"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.provider.hw.e",
+          "shortId": "a(Ljava/util/Map;)Lcom/xunmeng/pinduoduo/alive/base/ability/impl/provider/hw/e$a;"
+        },
+        "newName": "buildSetValueInstance"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.provider.hw.e",
+          "shortId": "b()Ljava/util/Map;"
+        },
+        "newName": "readLayoutParamFromXML"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.provider.hw.e",
+          "shortId": "b(I)Ljava/lang/String;"
+        },
+        "newName": "convertIntToStringConstant"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.provider.hw.e",
+          "shortId": "c()I"
+        },
+        "newName": "getHuaweiLauncherType"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.provider.hw.e",
+          "shortId": "d()Lcom/xunmeng/pinduoduo/alive/base/ability/impl/provider/hw/e$a;"
+        },
+        "newName": "buildSetValueInstanceFromXML"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.provider.hw.e",
+          "shortId": "e()Ljava/lang/String;"
+        },
+        "newName": "getE"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.provider.hw.e",
+          "shortId": "f()I"
+        },
+        "newName": "getDefaultLauncherType"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.provider.hw.f",
+          "shortId": "a()Ljava/lang/String;"
+        },
+        "newName": "getHuaweiOrHonorDefaultLauncherPackageName"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.provider.hw.f",
+          "shortId": "b(Ljava/lang/String;)Z"
+        },
+        "newName": "isDefaultLauncherVersionGreaterOrEqual"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.provider.hw.f",
+          "shortId": "h()Z"
+        },
+        "newName": "getHuaweiFingerPrintParallelRestartSetting"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.provider.hw.g",
+          "shortId": "a()Ljava/lang/String;"
+        },
+        "newName": "getMIUIDefaultLauncherVersion"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.provider.hw.g",
+          "shortId": "a(Ljava/lang/String;)Ljava/lang/String;"
+        },
+        "newName": "getPackageVersion"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.provider.hw.g",
+          "shortId": "a(Ljava/lang/String;Ljava/lang/String;)Z"
+        },
+        "newName": "compareVersion"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.provider.hw.g",
+          "shortId": "b()Ljava/lang/Integer;"
+        },
+        "newName": "getMIUIDefaultLauncherVersionCode"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.provider.hw.g",
+          "shortId": "b(Ljava/lang/String;)Ljava/lang/Integer;"
+        },
+        "newName": "getPackageVersionCode"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.provider.hw.g",
+          "shortId": "c()Ljava/lang/String;"
+        },
+        "newName": "getHuaweiDefaultLauncherPackageName"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.provider.hw.g",
+          "shortId": "d()Ljava/lang/String;"
+        },
+        "newName": "getOPPODefaultLauncherVersion"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.provider.hw.g",
+          "shortId": "e()Ljava/lang/String;"
+        },
+        "newName": "getVivoDefaultLauncherVersion"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.provider.hw.g",
+          "shortId": "f()Ljava/lang/String;"
+        },
+        "newName": "getCurrentSystemDefaultLauncherPackageName"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.provider.hw.g",
+          "shortId": "g()Ljava/lang/String;"
+        },
+        "newName": "getCurrentSystemDefaultLauncherVersion"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.provider.hw.h",
+          "shortId": "a(J)V"
+        },
+        "newName": "logPermissionRevoked"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.provider.hw.h",
+          "shortId": "a(Ljava/lang/String;Ljava/lang/Throwable;)V"
+        },
+        "newName": "logExceptionEvent"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.provider.hw.h",
+          "shortId": "a(Ljava/lang/String;Ljava/util/Map;)V"
+        },
+        "newName": "logEvent"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.provider.hw.h",
+          "shortId": "a(Ljava/lang/String;Z)V"
+        },
+        "newName": "logErrorEvent"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.provider.hw.h",
+          "shortId": "a(Z)V"
+        },
+        "newName": "logLauncherRestartResult"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.provider.hw.h",
+          "shortId": "a(ZLjava/lang/String;Z)V"
+        },
+        "newName": "logGrantPermissionResultEventAndError"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.provider.hw.h",
+          "shortId": "b(Ljava/lang/String;Ljava/util/Map;)V"
+        },
+        "newName": "logErrorEvent"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.provider.hw.h",
+          "shortId": "c(Ljava/lang/String;Ljava/util/Map;)V"
+        },
+        "newName": "addFixedFieldsToMap"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.provider.hwselfstart.b",
+          "shortId": "a(Ljava/lang/String;)Z"
+        },
+        "newName": "disableSelfStart"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.provider.hwselfstart.b",
+          "shortId": "a(ZLjava/lang/String;)Z"
+        },
+        "newName": "enableSelfStart"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.provider.hwselfstart.b",
+          "shortId": "a(ZZLjava/lang/String;)Z"
+        },
+        "newName": "startSelfStart"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.provider.j",
+          "shortId": "a(Ljava/lang/String;J)V"
+        },
+        "newName": "logPermissionRevokedEvent"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.provider.j",
+          "shortId": "a(Ljava/lang/String;Ljava/lang/Long;Ljava/lang/String;)V"
+        },
+        "newName": "logHFPServiceEvent"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.provider.j",
+          "shortId": "a(Ljava/lang/String;Ljava/lang/String;JZLjava/lang/String;)V"
+        },
+        "newName": "logGrantPermissionEventAndTracker"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.provider.j",
+          "shortId": "a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V"
+        },
+        "newName": "logExceptionErrorEvent"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.provider.j",
+          "shortId": "a(Ljava/lang/String;Ljava/lang/String;Ljava/util/Map;ZZ)V"
+        },
+        "newName": "logEventAndErrorWithTracker"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.provider.j",
+          "shortId": "a(Ljava/lang/String;Ljava/lang/String;Z)V"
+        },
+        "newName": "logInvokeResultEventAndError"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.provider.j",
+          "shortId": "a(Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;)V"
+        },
+        "newName": "logGrantPermissionEventAndTracker"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.provider.j",
+          "shortId": "a(Ljava/lang/String;Ljava/util/Map;)V"
+        },
+        "newName": "logEventWithTracker"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.provider.j",
+          "shortId": "a(Ljava/lang/String;Z)V"
+        },
+        "newName": "logRestartEventAndError"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.provider.j",
+          "shortId": "a(Ljava/lang/String;ZLjava/lang/String;ZLjava/lang/Long;Ljava/lang/String;Ljava/lang/String;)V"
+        },
+        "newName": "logGrantPermissionEventAndTracker"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.provider.j",
+          "shortId": "b(Ljava/lang/String;Ljava/util/Map;)V"
+        },
+        "newName": "logEventWithTrack"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.provider.j",
+          "shortId": "c(Ljava/lang/String;Ljava/util/Map;)V"
+        },
+        "newName": "logMarmotErrorEvent"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.provider.j",
+          "shortId": "d(Ljava/lang/String;Ljava/util/Map;)V"
+        },
+        "newName": "addFixedFieldsToMap"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.provider.k",
+          "shortId": "b(Landroid/net/Uri;Ljava/lang/String;ZZ)Lcom/xunmeng/pinduoduo/alive/base/ability/impl/provider/k$a;"
+        },
+        "newName": "writeMd5FromUri"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.provider.k",
+          "shortId": "c(Landroid/net/Uri;)Ljava/lang/String;"
+        },
+        "newName": "uriBase64Encode"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.provider.k",
+          "shortId": "c(Lcom/xunmeng/pinduoduo/alive/base/ability/interfaces/provider/fpUtils/IStreamHandle;)Z"
+        },
+        "newName": "writeMd5FromStreamHandle"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.startup.b",
+          "shortId": "a()Z"
+        },
+        "newName": "isFilterByBoxLock"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.startup.b",
+          "shortId": "a(IZ)Z"
+        },
+        "newName": "shouldStartBgActivityByNotification"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.startup.b",
+          "shortId": "a(Landroid/app/Application;Landroid/content/Intent;Landroid/app/NotificationManager;Landroid/support/v4/app/NotificationCompat$Builder;Landroid/app/NotificationChannel;)Z"
+        },
+        "newName": "startBackgroundActivityByNotificationWithDelay"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.startup.b",
+          "shortId": "a(Landroid/app/Application;Ljava/lang/String;I)V"
+        },
+        "newName": "registerActivityLifecycleCallbacksAndAutoCancelNotification"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.startup.b",
+          "shortId": "a(Landroid/app/NotificationChannel;)Z"
+        },
+        "newName": "shouldStartBgActivityByNotificationChannel"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.startup.b",
+          "shortId": "a(Landroid/app/NotificationManager;Ljava/lang/String;)Landroid/app/NotificationChannel;"
+        },
+        "newName": "findNotificationChannelById"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.startup.b",
+          "shortId": "a(Landroid/content/Context;Ljava/lang/String;)Z"
+        },
+        "newName": "shouldStartBgActivityByNotificationChannelId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.startup.b",
+          "shortId": "a(Landroid/content/Intent;)Z"
+        },
+        "newName": "isSystemFilterPassed"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.startup.b",
+          "shortId": "a(ZZ)Z"
+        },
+        "newName": "canStartBgActivity"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.startup.b",
+          "shortId": "b()Z"
+        },
+        "newName": "isFilterByLimitAppEnabled"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.startup.b",
+          "shortId": "b(II)V"
+        },
+        "newName": "reportHwQFullScreenIntentResult"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.startup.b",
+          "shortId": "b(IZ)Z"
+        },
+        "newName": "canStartBgActivityByAlarm"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.startup.b",
+          "shortId": "b(Landroid/app/Application;Landroid/content/Intent;Landroid/app/NotificationManager;Landroid/support/v4/app/NotificationCompat$Builder;)Z"
+        },
+        "newName": "startBackgroundActivityByNotification"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.startup.b",
+          "shortId": "b(Landroid/content/Context;I)V"
+        },
+        "newName": "cancelNotificationById"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.startup.b",
+          "shortId": "b(Landroid/content/Intent;)Z"
+        },
+        "newName": "shouldStartBgActivityByIntent"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.startup.b",
+          "shortId": "c()Z"
+        },
+        "newName": "isSupportBgStartByRumbleAction"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.startup.b",
+          "shortId": "c(Landroid/content/Intent;)V"
+        },
+        "newName": "startBackgroundActivity"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.startup.b",
+          "shortId": "d()Z"
+        },
+        "newName": "isRyzePopupAbilitySupported"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.startup.b",
+          "shortId": "d(Landroid/content/Intent;)Z"
+        },
+        "newName": "executeRumbleStartAbility"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.startup.b",
+          "shortId": "e()Z"
+        },
+        "newName": "canStartBackgroundActivity"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.startup.b",
+          "shortId": "e(Landroid/content/Intent;)Z"
+        },
+        "newName": "startRyzeActivity"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.startup.b",
+          "shortId": "f()Z"
+        },
+        "newName": "isBackgroundStartActivityEnabled"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.startup.b",
+          "shortId": "f(Landroid/content/Intent;)Z"
+        },
+        "newName": "shouldStartBgActivityWithFullScreenNotification"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.startup.b",
+          "shortId": "g()Lcom/xunmeng/pinduoduo/alive/strategy/interfaces/adapter/intf/threadpool/PddHandler;"
+        },
+        "newName": "getPddHandler"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.startup.b",
+          "shortId": "g(Landroid/content/Intent;)V"
+        },
+        "newName": "startBgActivityByThemeManager"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.startup.b",
+          "shortId": "h()I"
+        },
+        "newName": "getRomVersionCode"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.startup.b",
+          "shortId": "h(Landroid/content/Intent;)Z"
+        },
+        "newName": "startBgActivityByAlarm"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.startup.b",
+          "shortId": "i(Landroid/content/Intent;)Z"
+        },
+        "newName": "retnFalse"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.startup.b",
+          "shortId": "j(Landroid/content/Intent;)Z"
+        },
+        "newName": "startBgActivityDirectly"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.startup.b",
+          "shortId": "k()V"
+        },
+        "newName": "trackFinalStartActivityEvent"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.startup.b",
+          "shortId": "k(Landroid/content/Intent;)Z"
+        },
+        "newName": "startBgActivityByNotificationIntent"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.startup.b",
+          "shortId": "l()Z"
+        },
+        "newName": "isIntentCompatEnabled"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.startup.b",
+          "shortId": "m()Z"
+        },
+        "newName": "isReportFcIntentResultEnabled"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.startup.b",
+          "shortId": "n()Z"
+        },
+        "newName": "isFullscreenNotificationSupportedOnPresent"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.startup.b",
+          "shortId": "o()I"
+        },
+        "newName": "generateFullScreenNotificationID"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.startup.b",
+          "shortId": "p()Z"
+        },
+        "newName": "isFullScreenNotificationOptimizeEnabled"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.startup.c",
+          "shortId": "a()Z"
+        },
+        "newName": "isSamsungDevice"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.startup.c",
+          "shortId": "b()I"
+        },
+        "newName": "getAutoStartStateForSamsungDevice"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.startup.c",
+          "shortId": "c()Z"
+        },
+        "newName": "enableAutoStartForSamsungDevice"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.startup.c",
+          "shortId": "d()I"
+        },
+        "newName": "getAutoStartState"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.startup.c",
+          "shortId": "e()Z"
+        },
+        "newName": "enableAutoStart"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.startup.e",
+          "shortId": "a()Z"
+        },
+        "newName": "canStartBgActivityByFloatView"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.startup.e",
+          "shortId": "a(Landroid/content/Intent;)Z"
+        },
+        "newName": "startBgActivityWithFloatView"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.startup.e",
+          "shortId": "a(Lcom/xunmeng/pinduoduo/alive/base/ability/impl/startup/d;)Z"
+        },
+        "newName": "addFloatView"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.startup.e",
+          "shortId": "a(Ljava/lang/String;Ljava/lang/String;)V"
+        },
+        "newName": "trackFloatViewError"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.alive.base.ability.impl.startup.e",
+          "shortId": "b(Lcom/xunmeng/pinduoduo/alive/base/ability/impl/startup/d;Landroid/content/Intent;)Z"
+        },
+        "newName": "startBgActivityByFloatView"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.android_pull_ability_comp.pullstartup.a",
+          "shortId": "a(Landroid/content/Intent;)Lcom/xunmeng/pinduoduo/android_pull_ability_comp/pullstartup/h;"
+        },
+        "newName": "processIntent"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.android_pull_ability_comp.pullstartup.a",
+          "shortId": "a(Ljava/lang/String;)Lcom/xunmeng/pinduoduo/android_pull_ability_comp/pullstartup/h;"
+        },
+        "newName": "checkFunctionSupport"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.android_pull_ability_comp.pullstartup.a",
+          "shortId": "b()Lcom/xunmeng/pinduoduo/android_pull_ability_comp/pullstartup/g;"
+        },
+        "newName": "judgeDevice"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.android_pull_ability_comp.pullstartup.a",
+          "shortId": "b(Landroid/content/Intent;)Z"
+        },
+        "newName": "isIntentProcessable"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.android_pull_ability_comp.pullstartup.a",
+          "shortId": "b(Landroid/content/Intent;Ljava/lang/String;)Lcom/xunmeng/pinduoduo/android_pull_ability_comp/pullstartup/e;"
+        },
+        "newName": "getSuitableParcelClass"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.android_pull_ability_comp.pullstartup.a",
+          "shortId": "c()Z"
+        },
+        "newName": "isHuaweiDevice"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.android_pull_ability_comp.pullstartup.a",
+          "shortId": "c(Landroid/content/Intent;)Landroid/content/Intent;"
+        },
+        "newName": "createAccount"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.android_pull_ability_comp.pullstartup.a",
+          "shortId": "c(Landroid/content/Intent;Ljava/lang/String;)Lcom/xunmeng/pinduoduo/android_pull_ability_comp/pullstartup/e;"
+        },
+        "newName": "makeBundle"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.android_pull_ability_comp.pullstartup.a",
+          "shortId": "d()Ljava/util/Map;"
+        },
+        "newName": "getParcelClassBizWhiteList"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.android_pull_ability_comp.pullstartup.a",
+          "shortId": "d(Landroid/content/Intent;)Landroid/content/pm/ResolveInfo;"
+        },
+        "newName": "queryPullStartUpService"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.android_pull_ability_comp.pullstartup.a",
+          "shortId": "d(Landroid/content/Intent;Ljava/lang/String;)Z"
+        },
+        "newName": "startAccountSettingsActivity"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.android_pull_ability_comp.pullstartup.a",
+          "shortId": "e()Ljava/lang/String;"
+        },
+        "newName": "generateBlankString"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.android_pull_ability_comp.pullstartup.a",
+          "shortId": "e(Landroid/content/Intent;)Z"
+        },
+        "newName": "bindAccountService"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.android_pull_ability_comp.pullstartup.h",
+          "shortId": "a()Z"
+        },
+        "newName": "getBoolean"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.android_pull_ability_comp.pullstartup.utils.b",
+          "shortId": "a()V"
+        },
+        "newName": "delayAndClearLog"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.android_pull_ability_comp.pullstartup.utils.b",
+          "shortId": "a(Landroid/content/Intent;Ljava/lang/String;)Ljava/lang/String;"
+        },
+        "newName": "getIntentStrValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.android_pull_ability_comp.pullstartup.utils.b",
+          "shortId": "b()Ljava/lang/String;"
+        },
+        "newName": "loadAliveBaseAbilityVersion"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.android_pull_ability_comp.pullstartup.utils.b",
+          "shortId": "c()Z"
+        },
+        "newName": "isInBlacklist"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.sensitive_api_plugin_adapter.alive_base_ability_plugin.a",
+          "shortId": "a(Landroid/content/pm/PackageManager;ILjava/lang/String;)Ljava/util/List;"
+        },
+        "newName": "getInstalledPackages"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.sensitive_api_plugin_adapter.alive_base_ability_plugin.a",
+          "shortId": "a(Landroid/content/pm/PackageManager;Landroid/content/Intent;ILjava/lang/String;)Ljava/util/List;"
+        },
+        "newName": "queryIntentActivities"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.sensitive_api_plugin_adapter.alive_base_ability_plugin.a",
+          "shortId": "a(Landroid/content/pm/PackageManager;Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;"
+        },
+        "newName": "getLaunchIntentForPackage"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.sensitive_api_plugin_adapter.alive_base_ability_plugin.a",
+          "shortId": "b(Landroid/content/pm/PackageManager;ILjava/lang/String;)Ljava/util/List;"
+        },
+        "newName": "getInstalledApplications"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.sensitive_api_plugin_adapter.alive_base_ability_plugin.a",
+          "shortId": "b(Landroid/content/pm/PackageManager;Landroid/content/Intent;ILjava/lang/String;)Ljava/util/List;"
+        },
+        "newName": "queryIntentActivitiesWithFilter"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.sensitive_api_plugin_adapter.alive_base_ability_plugin.a",
+          "shortId": "b(Landroid/content/pm/PackageManager;Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;"
+        },
+        "newName": "getLaunchIntentForPackageWithLog"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.sensitive_api_plugin_adapter.alive_base_ability_plugin.a",
+          "shortId": "c(Landroid/content/pm/PackageManager;ILjava/lang/String;)Ljava/util/List;"
+        },
+        "newName": "getInstalledApplicationsWithFilter"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.sensitive_api_plugin_adapter.alive_base_ability_plugin.a",
+          "shortId": "d(Landroid/content/pm/PackageManager;ILjava/lang/String;)Ljava/util/List;"
+        },
+        "newName": "getInstalledPackagesWithFilter"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.sensitive_api_plugin_adapter.alive_base_ability_plugin.d",
+          "shortId": "a(Landroid/net/Uri;Ljava/lang/String;Ljava/lang/String;)V"
+        },
+        "newName": "logUriUsage"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.sensitive_api_plugin_adapter.alive_base_ability_plugin.d",
+          "shortId": "a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V"
+        },
+        "newName": "logMethodCall"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.unify.ability.dybuild_buildin.abilities.utils.b",
+          "shortId": "a()Landroid/app/Application;"
+        },
+        "newName": "getApplicationIfSupported"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.unify.ability.dybuild_buildin.abilities.utils.b",
+          "shortId": "a(I)Z"
+        },
+        "newName": "setComponentEnabledState"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.unify.ability.dybuild_buildin.abilities.utils.b",
+          "shortId": "a(Landroid/content/Intent;)Z"
+        },
+        "newName": "hasSingleActivityForIntent"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.unify.ability.dybuild_buildin.abilities.utils.b",
+          "shortId": "a(Landroid/content/Intent;I)Ljava/util/List;"
+        },
+        "newName": "queryIntentActivitiesForComponentUtils"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.unify.ability.dybuild_buildin.abilities.utils.b",
+          "shortId": "a(Ljava/lang/String;)Landroid/content/pm/PackageInfo;"
+        },
+        "newName": "getPackageInfoForPackageName"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.unify.ability.dybuild_buildin.abilities.utils.b",
+          "shortId": "a(Ljava/lang/String;Landroid/content/Context;Landroid/content/Intent;)V"
+        },
+        "newName": "startActivityWithFlagsIfNeeded"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.unify.ability.dybuild_buildin.abilities.utils.b",
+          "shortId": "b()Landroid/app/Application;"
+        },
+        "newName": "getCurrentApplication"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.unify.ability.dybuild_buildin.abilities.utils.b",
+          "shortId": "b(Landroid/content/Intent;)Ljava/util/List;"
+        },
+        "newName": "queryIntentActivitiesForComponentUtilsWithFilter"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.unify.ability.dybuild_buildin.abilities.utils.b",
+          "shortId": "b(Ljava/lang/String;Landroid/content/Context;Landroid/content/Intent;)V"
+        },
+        "newName": "startNewActivity"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.unify.ability.dybuild_buildin.abilities.utils.b",
+          "shortId": "c(Landroid/content/Intent;)Landroid/content/pm/ResolveInfo;"
+        },
+        "newName": "getResolveInfoForActivity"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.xunmeng.pinduoduo.unify.ability.dybuild_buildin.abilities.utils.b",
+          "shortId": "d(Landroid/content/Intent;)Z"
+        },
+        "newName": "hasSingleServiceForIntent"
+      }
+    ]
+  },
+  "openTabs": [
+    {
+      "type": "class",
+      "tabPath": "com.xunmeng.pinduoduo.alive.base.ability.comp.Main",
+      "subPath": "java",
+      "caret": 2329,
+      "view": {
+        "x": 0,
+        "y": 360
+      }
+    },
+    {
+      "type": "class",
+      "tabPath": "com.xunmeng.pinduoduo.android_pull_ability_comp.pullstartup.sona.a",
+      "subPath": "java",
+      "caret": 4831,
+      "view": {
+        "x": 0,
+        "y": 117
+      }
+    },
+    {
+      "type": "class",
+      "tabPath": "com.xunmeng.pinduoduo.android_pull_ability_comp.pullstartup.track.a",
+      "subPath": "java",
+      "caret": 9520,
+      "view": {
+        "x": 0,
+        "y": 1841
+      }
+    },
+    {
+      "type": "class",
+      "tabPath": "com.xunmeng.pinduoduo.android_pull_ability_comp.pullstartup.sona.e",
+      "subPath": "java",
+      "caret": 2737,
+      "view": {
+        "x": 0,
+        "y": 189
+      }
+    },
+    {
+      "type": "class",
+      "tabPath": "com.xunmeng.pinduoduo.android_pull_ability_comp.pullstartup.g",
+      "subPath": "java",
+      "caret": 251,
+      "view": {
+        "x": 0,
+        "y": 0
+      }
+    }
+  ],
+  "activeTab": 2,
+  "cacheDir": "com.cache",
+  "enableLiveReload": false,
+  "searchHistory": []
+}

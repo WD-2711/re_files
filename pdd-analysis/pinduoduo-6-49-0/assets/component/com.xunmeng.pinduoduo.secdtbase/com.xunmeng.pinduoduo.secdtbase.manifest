@@ -1,0 +1,8 @@
+PDD_MANIFEST
+VERSION: 1.0.0
+KEEP:
+assets/
+nvwa_src/
+assets/json.config
+nvwa_src/nw0.bin
+com.xunmeng.pinduoduo.secdtbase.md5checker

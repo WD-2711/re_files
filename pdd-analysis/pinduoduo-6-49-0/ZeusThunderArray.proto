@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.xunmeng.pinduoduo.basiccomponent.reporter;
+
+import "ZeusThunder.proto";
+
+option java_outer_classname='ThunderArrayData';
+
+message ThunderArray {
+    repeated Thunder data = 1;
+    map<string, string> commonTags = 2;
+    map<string, float> commonFloatFields = 3;
+    map<string, string> commonExtras = 4;
+}
